@@ -7,14 +7,14 @@ while condition < 10:
     condition += 1
 
 
-condition = '2'
+condition = 2
 
 while condition > 5:
-    print 'test'
+    print('test')
 
 # Another favorite of many people... the infinite loop #
 
-while True:
+while False:
     print('doing stuff!!')
 
 

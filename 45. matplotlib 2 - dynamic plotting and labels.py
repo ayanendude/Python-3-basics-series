@@ -1,6 +1,5 @@
 # easiest to use: http://www.lfd.uci.edu/~gohlke/pythonlibs/#matplotlib
 
-
 #importing pyplot
 from matplotlib import pyplot as plt
 

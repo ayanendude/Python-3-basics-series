@@ -39,7 +39,7 @@ example()
 # and successfully even was called... the problem is that it is a local
 # variable only, and you are attempting to access it globally.
 
-print(z)
+#print(z)
 
 # next up is an example that i've seen cause even more trouble, and that's
 # the attempt to play with a global variable locally. The reason why this
@@ -61,6 +61,7 @@ def example2():
     # we are told that we cannot, as we're referencing the variable before
     # its assignment.
 
+#example2()
 '''
 So now you know the rules, what can we do about it?
 '''
@@ -74,7 +75,7 @@ def example3():
     x+=5
     print(x)
 
-
+example3()
 
 
 '''
@@ -92,7 +93,7 @@ def example4():
     globx+=5
     print(globx)
 
-
+example4()
 # and that's it!
 
 # hopefully that will help some of you from pulling your hair out for 30 minutes
